@@ -386,10 +386,10 @@ end)
 -- ✅ RAYFIELD UI (YouTube + Pets Only)
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-    Name = "🔥 Skid HUB | Adopt Me",
-    LoadingTitle = "Loading Pet Spawner...",
-    LoadingSubtitle = "by Skid",
-    ConfigurationSaving = {Enabled = true, FolderName = "RayzHubAdoptMe"},
+    Name = "🌸 Agua HUB | Adopt Me",
+    LoadingTitle = "Loading Adopt Me Spawner...",
+    LoadingSubtitle = "By Agua HUB",
+    ConfigurationSaving = {Enabled = true, FolderName = "AguaHubAdoptMe"},
     KeySystem = false
 })
 
@@ -475,5 +475,5 @@ PetsTab:CreateButton({
 Rayfield:Notify({
     Title = "🚀 Agua HUB LOADED!",
     Content = "✅ Load Completely: ",
-    Duration = 1
+    Duration = 0
 })
