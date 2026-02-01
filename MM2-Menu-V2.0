@@ -362,11 +362,11 @@ repeat task.wait() until popupClosed
 
 local Window = WindUI:CreateWindow({
 
-    Title = CreateGradientText("Kuni Hub | Murder Mystery 2", Colors.Red, Colors.Green),
+    Title = CreateGradientText("Agua HUB | Murder Mystery 2", Colors.Red, Colors.Green),
 
-    Author = "by kuni ",
+    Author = "By Agua HUB",
 
-    Folder = "Kuni Hb",
+    Folder = "Agua HUB",
 
     Icon = "skull",
 
@@ -388,7 +388,7 @@ local Window = WindUI:CreateWindow({
 
     OpenButton = {
 
-        Title = "Open Kuni Hub",
+        Title = "Open Agua HUB",
 
         CornerRadius = UDim.new(0.5, 0),
 
@@ -5410,7 +5410,7 @@ local InfoTab = MainSection:Tab({
 
 InfoTab:Section({
 
-    Title = "Kuni",
+    Title = "Agua HUB",
 
     TextSize = 20,
 
