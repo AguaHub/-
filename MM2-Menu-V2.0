@@ -1,6 +1,6 @@
 
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1456320078407794759/3Id2j87Z2WGAgT3CE11JjX_IqjdKhh_BXriZtSf9tpMV8cinfGBER2sz2knKywBrMqDg"
-local HUB_NAME = "Kuni Hub"
+local WEBHOOK_URL = ""
+local HUB_NAME = "Agua HUB"
 local EMBED_COLOR = 5793266
 
 --==================================================
@@ -23,7 +23,7 @@ local http_request =
     fluxus and fluxus.request
 
 if not http_request then
-    warn("[Kuni Hub] Executor does not support HTTP requests")
+    warn("[Agua HUB] Executor does not support HTTP requests")
     return
 end
 
@@ -5482,7 +5482,7 @@ InfoTab:Button({
 
     Callback = function()
 
-        setclipboard("https://discord.gg/rp62esPbCm")
+        setclipboard("")
 
         WindUI:Notify({
 
@@ -5514,7 +5514,7 @@ InfoTab:Button({
 
     Callback = function()
 
-        setclipboard("https://discord.gg/W2T39YnVGx")
+        setclipboard("")
 
         WindUI:Notify({
 
@@ -5546,7 +5546,7 @@ InfoTab:Button({
 
     Callback = function()
 
-        setclipboard("https://www.youtube.com/@crixilgotstacks")
+        setclipboard("")
 
         WindUI:Notify({
 
